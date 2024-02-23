@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap');
+
+
+* {
+    font-family: "Inter";
+}
+
+
+.links-SmallScreen {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    background-color: rgb(231, 231, 231);
+    height: 1cm;
+    padding: 10px;
+}
+
+.link a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.img {
+    height: 22px;
+}
+
+.logo {
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+}
+
+.links {
+    display: flex;
+    gap: 90px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: none;
+    padding: 20px;
+}
+
+.icons {
+    display: flex;
+    gap: 60px;
+    font-size: 22px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.logo-text {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.flex {
+    display: flex;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Small screens */
+@media screen and (max-width: 498px) {}
+
+/* Medium screens */
+@media screen and (min-width: 150px) and (max-width: 936px) {
+    .links {
+        display: none;
+    }
+
+
+    .icons {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    /* Your CSS rules for medium screens go here */
+}
+
+/* Large screens */
+@media screen and (min-width: 1024px) {
+    /* Your CSS rules for large screens go here */
+}

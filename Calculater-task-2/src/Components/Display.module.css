@@ -1,0 +1,10 @@
+.width {
+    width: 175px;
+    margin: 5%;
+
+    border: 1px solid black;
+}
+
+.height {
+    height: 50px;
+}
